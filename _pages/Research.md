@@ -6,7 +6,7 @@ author_profile: true
 
 Currently I am working with Quantum Superconducting Circuits to develop Multi-Body interactions within these circuits. These interactions will imporve the current multi body Quantum Gates by performing them in a single interaction.
 <br>
-I also work with some theortical condensed matter looking into the links between Chern Simons theory  and the franctional quantum hall effect. 
+I also work with some theoritical condensed matter looking into the links between Chern Simons theory  and the franctional quantum hall effect. 
 <br> 
 My work with supercondcuting circuits has given me an interest in quantum computing that has exapnded my interests in Quanutm computing to Quantum Simulators  and Quantum Machine Learning. Both of which I plan on researching in my PhD.
 

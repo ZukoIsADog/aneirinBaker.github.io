@@ -12,7 +12,7 @@ My work with supercondcuting circuits has given me an interest in quantum comput
 
 <hr>
 
-You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also find my posters [here](/posters/). 
+You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also find my poster [here](/posters/). 
 
 <hr>
 

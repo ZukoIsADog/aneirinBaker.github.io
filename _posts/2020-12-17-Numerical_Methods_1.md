@@ -2,13 +2,18 @@
 layout: posts
 title: Numerical Methods 1 - Introduction and Euler Method
 subtitle: Welcome to my Blog
-cover-img: /assets/img/Banner_Numerical_Methods1.jpg
-thumbnail-img: /assets/img/thumbnail_Numerical_Methods1.jpg
-share-img: /assets/img/path.jpg
 tags: [Numerical Methods, ODE, Python]
+tagline: ""
+header:
+  overlay_image: /assets/img/unsplash-image-1.jpg
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
+# Introduction
 
-Introduction .....
+Differential equations are central to the study of the natural world. They describe everything from the flow of fluids through pipes to the evolution of electrons in boxes. These equations naturally get very complicated very quickly thus we must put down our shapr pencils and turn to the more bluntened approach (albeit vastly more powerful) of numercial methods. 
+<br>
+In this series i will explore how to solve Differential equations using computers and the fascinating methods which have been developed to solve the most complicated of these devils. We shall explore methods such as Parellel computing and Machine Learning , examine different approaches such as Density Matrix Renormalization Group and investigate how these approaches compare to one another.
 
 ## Solving Simple Ordinary DIfferential Equations's Numerically
 
@@ -19,22 +24,22 @@ We begin these posts with some simple ways to solve Ordinary Differential Equati
 
 As we can evaluate both the derivative and the function on the LHS at the initial point we can use this information to determine an approximation to the derivative at a time step slightly into the future. The important question here is why can we do this. The answer is finite difference, an approximation to the derivative given by
 
-\\[ \frac{dy}{dt} \approx \frac{y(t+h) - y(t)}{h}\\]
+\\[ \frac{dy}{dt} \approx \frac{y(t+h) - y(t)}{h}.\\]
 
 We know this from Newtonian calculus, we also know that the smaller we make h the better the approximation becomes. This will help us when we come to code this up and look at different ODE's to solve. For now though the theory is that we can re arrange this into the solution we wane \\ y(t+h) \\  and make it equal to the things we know (the rest of the equation helpfully)
 
-\\[ y(t+h) \approx \frac{dy}{dt} + h y(t_0)\\]
+\\[ y(t+h) \approx \frac{dy}{dt} + h y(t_0).\\]
 
 This can now be iterated upon to give us the next point in the calculation, bringing us to the well known formula for Euler's method 
 
-\\[ y_{t+1} = f(t,y(t)) + h y(t)\\]
+\\[ y_{t+1} = f(t,y(t)) + h y(t).\\]
 
 This is a great start but how good is it exactly. Well we can answer that question quite easily by coding this up in our language of choice. Currently i mainly work in python so that's what i will use here. The basic structure will be the same for most languages unless you want to use some weird language like Haskell (good luck though)
 
 ### Python Code
 The equation we would like to solve is 
 
-\\[  \frac{dy}{dt} = y \quad \text{,} \quad y(0) = 1 \\]
+\\[  \frac{dy}{dt} = y \quad \text{,} \quad y(0) = 1. \\]
 
 A simple differential equation and so one which is easy to solve, the solution to which is 
 
@@ -77,11 +82,11 @@ We can also repeat this for different values of h and compare it to the true sol
 
 As we can see the smaller we make h the closer our algorithm gets to the true solution. However, if we try to solve a slightly different problem, it won't look like we've changed much and it is still easy to solve analytically.
 
-\\[ \frac{d^2 y}{dt^2} = -y \quad \text{,} \quad y(0) = 1 \quad \text{,} y'(0) = 1\\]
+\\[ \frac{d^2 y}{dt^2} = -y \quad \text{,} \quad y(0) = 1 \quad \text{,} \quad y'(0) = 1.\\]
 
 Now this is a little more complicated to solve with the Euler method since it is second order in the derivative, but nonetheless it can be solved and has the solution 
 
-\\[ y(t) = \sin(t) + \cos(t)\\]
+\\[ y(t) = \sin(t) + \cos(t).\\]
 
 However we wish to find a numerical method to solve this equation.
 
@@ -89,10 +94,10 @@ However we wish to find a numerical method to solve this equation.
 
 To solve this numerically we need to turn it into a system of first order ODE's so we define
 
-\\[ \frac{dy}{dt} = u \\]
+\\[ \frac{dy}{dt} = u .\\]
 
 Which gives us the system of ODE's
-\\[\frac{dy}{dt} = u \quad \text{,} \quad \frac{du}{dt} = y \quad\text{,} \quad y'(0) = 1 \quad \text{,} \quad y(0) = 1
+\\[\frac{dy}{dt} = u \quad \text{,} \quad \frac{du}{dt} = y \quad\text{,} \quad y'(0) = 1 \quad \text{,} \quad y(0) = 1.
 \\]
 
 Which can use the Euler method to create an iterative algorithm to solve this system of equations
@@ -100,7 +105,7 @@ Which can use the Euler method to create an iterative algorithm to solve this sy
 \\[ 
 u_{i+1} = u_i + f(y_i,t_i) h
 \quad \text{,} \quad
-y_{i+1} = y_i + u_i h
+y_{i+1} = y_i + u_i h.
 \\]
 
 The code for this algorithm is shown below

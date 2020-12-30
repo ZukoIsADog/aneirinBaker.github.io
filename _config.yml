@@ -53,7 +53,7 @@ analytics:
 # Site Author
 author:
   name             : Aneirin Baker
-  avatar           : /assets/img/Kaya.jpg
+  avatar           : /assets/img/Pic_of_me.jpg
   bio: 
     PhD Researcher
     <br> 
@@ -150,7 +150,6 @@ sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
 
-
 defaults:
   - scope:
       path: ""
@@ -159,3 +158,6 @@ defaults:
       layout: single
       classes: wide
       author_profile: false
+
+scholar:
+  style: modern-language-association

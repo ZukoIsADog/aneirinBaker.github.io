@@ -2,8 +2,14 @@
 main:
   - title: "Home"
     url: /
-  - title: "About"
+  - title: "About Me"
     url: /about/
+  - title: "My Research"
+    url: /research/
+  #- title : "Interests"
+    #url: /other/
+  - title : "Blog Posts"
+    url: /posts/
 
 test:
   - title: Test

@@ -64,6 +64,4 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 </div>
 ## References
 
-{% bibliography %}
-
 

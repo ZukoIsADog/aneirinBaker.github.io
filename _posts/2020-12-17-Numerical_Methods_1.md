@@ -26,7 +26,7 @@ As we can evaluate both the derivative and the function on the LHS at the initia
 
 \\[ \frac{dy}{dt} \approx \frac{y(t+h) - y(t)}{h}.\\]
 
-We know this from Newtonian calculus, we also know that the smaller we make h the better the approximation becomes. This will help us when we come to code this up and look at different ODE's to solve. For now though the theory is that we can re arrange this into the solution we wane \\ y(t+h) \\  and make it equal to the things we know (the rest of the equation helpfully)
+We know this from Newtonian calculus, we also know that the smaller we make h the better the approximation becomes. This will help us when we come to code this up and look at different ODE's to solve. For now though the theory is that we can re arrange this into the solution we want \\( y(t+h) \\)  and make it equal to the things we know (the rest of the equation helpfully)
 
 \\[ y(t+h) \approx \frac{dy}{dt} + h y(t_0).\\]
 

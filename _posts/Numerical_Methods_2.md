@@ -68,6 +68,9 @@ We can compare this to the Euler method to see how much better this is.
 ALSO NOTE ABOUT THE FAMILT OF METHODS WHICH CAN BE DERIVED.
 
 ************** code comparison goes here ********************
+### Code to compare Euler and RK2
+
+
 
 ##Runge Kutta fourth ORder
 

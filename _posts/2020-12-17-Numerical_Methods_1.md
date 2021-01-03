@@ -11,13 +11,13 @@ header:
 ---
 # Introduction
 
-Differential equations are central to the study of the natural world. They describe everything from the flow of fluids through pipes to the evolution of electrons in boxes. These equations naturally get very complicated very quickly thus we must put down our shapr pencils and turn to the more bluntened approach (albeit vastly more powerful) of numercial methods. 
+Differential equations are central to the study of the natural world. They describe everything from the flow of fluids through pipes to the evolution of electrons in boxes. These equations naturally get very complicated very quickly thus we must put down our sharp pencils and turn to the more bluntened approach (albeit vastly more powerful) of numerical methods. 
 <br>
-In this series i will explore how to solve Differential equations using computers and the fascinating methods which have been developed to solve the most complicated of these devils. We shall explore methods such as Parellel computing and Machine Learning , examine different approaches such as Density Matrix Renormalization Group and investigate how these approaches compare to one another.
+In this series I will explore how to solve Differential equations using computers and the fascinating methods which have been developed to solve the most complicated of these devils. We shall explore methods such as Parallel computing and Machine Learning , examine different approaches such as Density Matrix Renormalization Group and investigate how these approaches compare to one another.
 
 ## Solving Simple Ordinary DIfferential Equations's Numerically
 
-We begin these posts with some simple ways to solve Ordinary Differential Equations (ODE's). We could solve these problems analytically however whilst some ODE's can be solved this way most cannot. Most differential equations that are useful to us are not solvable analytically, in fact we are not sure that a solution even exist at all points (Navier Stokes etc). However we are saved (as always) by the existence of computers. We can numerically solve these equations to find an approximate answer. The most basic version of this is the first order finite difference method or Euler method, using this method we can solve first order initial Value problems which take the form
+We begin these posts with some simple ways to solve Ordinary Differential Equations (ODE's). We could solve these problems analytically however whilst some ODE's can be solved this way most cannot. Most differential equations that are useful to us are not solvable analytically, in fact we are not sure that a solution even exists at all points (Navier Stokes etc). However we are saved (as always) by the existence of computers. We can numerically solve these equations to find an approximate answer. The most basic version of this is the first order finite difference method or Euler method, using this method we can solve first order initial Value problems which take the form
 
 
 \\[ \frac{dy}{dt} = f(t,y) \quad \text{,} \quad y(t_0) = y_0.\\]
@@ -34,7 +34,7 @@ This can now be iterated upon to give us the next point in the calculation, brin
 
 \\[ y_{t+1} = f(t,y(t)) + h y(t).\\]
 
-This is a great start but how good is it exactly. Well we can answer that question quite easily by coding this up in our language of choice. Currently i mainly work in python so that's what i will use here. The basic structure will be the same for most languages unless you want to use some weird language like Haskell (good luck though)
+This is a great start but how good is it exactly. Well we can answer that question quite easily by coding this up in our language of choice. Currently I mainly work in python so that's what I will use here. The basic structure will be the same for most languages unless you want to use some weird language like Haskell (good luck though)
 
 ### Python Code
 The equation we would like to solve is 
@@ -71,7 +71,7 @@ for i in range(0,5):
 	Y.append(Y[i] + h*Y[i]) # Forward Euler method
 	t_lst.append((i+1)*h)
 for i in range(50):
-	#Using Smaller step size for the true solution to approximate the continum
+	#Using Smaller step size for the true solution to approximate the continuum
 	Y_true.append(e**((i+1)*0.1))
 	t_lstT.append((i+1)*0.1)
 
@@ -147,4 +147,5 @@ Which produces the result
 As can be easily seen the Euler method breaks down for this oscillating solution but why is this? Can we predict if this is going to occur? Are there any improvements we can make to stop this from happening or at least reduce the error.
 
 All of these and more will be answered in my next post.
+
 

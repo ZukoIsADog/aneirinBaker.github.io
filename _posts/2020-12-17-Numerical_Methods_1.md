@@ -146,6 +146,6 @@ Which produces the result
 
 As can be easily seen the Euler method breaks down for this oscillating solution but why is this? Can we predict if this is going to occur? Are there any improvements we can make to stop this from happening or at least reduce the error.
 
-All of these and more will be answered in my next post.
+All of these and more will be answered in my next posts.
 
 

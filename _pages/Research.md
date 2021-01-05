@@ -12,7 +12,7 @@ My work with supercondcuting circuits has given me an interest in quantum comput
 
 <hr>
 
-You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also find my poster [here](/posters/). 
+You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also find my posters [here](/posters/) and my Masters Thesis [here](../assets/docs/Master_Project.pdf)
 
 <hr>
 
@@ -24,7 +24,7 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 </style>
 
 <div class="container-list">
-	<div class="container-outer" onclick="location.href='../assets/img/phd030718s.gif';" style="cursor: pointer;">
+	<div class="container-outer" onclick="location.href='/Toffoli/';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Three Body interactions in Superconducting Circuits</h3>
 		</div>

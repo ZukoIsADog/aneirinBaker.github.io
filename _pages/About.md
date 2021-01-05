@@ -20,7 +20,7 @@ author_profile: true
 
 My name is Aneirin (Nye) Baker. I am a 3rd Year PhD student at Heriot Watt Univertisty studying under [Michael Hartmann](https://www.quantumtheory.nat.fau.eu/) (Erlangen Univeristy formerly Heriot Watt). Currently I am working with [Patrik Ohbergs group](http://home.eps.hw.ac.uk/~po15/index.html) as my local supervisor. My PhD is on Qunatum Computing Hardware looking into three body interactions within superconducting circuits and their uses in Quantum Simulators. In addition to this I work on Numerical Simulations of Chiral Condensates looking into their relation to the Fractional Quantum Hall Effect. 
 
-Outside of my PhD I love to cycle. I plan on doing Land's End to John o'Groates next summer (2021) so training for that will begin as soon as the weather improves (hopefully in spring). I also love to hike, swim, rock climb etc etc I love sports in general. In what spare time I have left I have three animals to look after; two dogs (Kaya and Zuko) and a Cat (Loki), Zuko is the newest addition to our .....horde he's a 5 month Romanian rescue so he is taking alot of attention these days. 
+Outside of my PhD I love to cycle. I plan on doing Land's End to John O'Groats next summer (2021) so training for that will begin as soon as the weather improves (hopefully in spring). I also love to hike, swim, rock climb etc etc I love sports in general. In what spare time I have left I have three animals to look after; two dogs (Kaya and Zuko) and a Cat (Loki), Zuko is the newest addition to our .....horde he's a 5 month Romanian rescue so he is taking alot of attention these days. 
 
 <head>
 <style>

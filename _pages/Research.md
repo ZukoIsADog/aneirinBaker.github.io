@@ -8,7 +8,7 @@ Currently I am working with Quantum Superconducting Circuits to develop Multi-Bo
 <br>
 I also work with some theoritical condensed matter looking into the links between Chern Simons theory  and the franctional quantum hall effect. 
 <br> 
-My work with supercondcuting circuits has given me an interest in quantum computing that has exapnded my interests in Quanutm computing to Quantum Simulators  and Quantum Machine Learning. Both of which I plan on researching in my PhD.
+My work with supercondcuting circuits has given me an interest in quantum computing that has exapnded my interests in Quanutm Computing to Quantum Simulators and Quantum Machine Learning. Both of which I plan on researching in my PhD.
 
 <hr>
 
@@ -24,7 +24,7 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 </style>
 
 <div class="container-list">
-	<div class="container-outer" onclick="location.href='../assets/img/Comics/phd-front.jpg';" style="cursor: pointer;">
+	<div class="container-outer" onclick="location.href='/Toffoli/';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Three Body interactions in Superconducting Circuits</h3>
 		</div>
@@ -55,7 +55,7 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 		<div class="container-inner">
 			<img class="img-prev" src="/assets/img/Research/FQHE.gif" alt="FQHE.png">
 			<div class="txt-box">
-			The Fractional Quantum Hall effect was discovered in ... and has puzzled condensed matter theoriests for a while. The exact mechanism for the creation of the fractionaliztion within this effect is not known. 
+			The Fractional Quantum Hall effect was discovered in the 1990's and has puzzled condensed matter theoriests for a while. The exact mechanism for the creation of the fractionaliztion within this effect is not known. 
 			</div>
 		</div>
 	</div>

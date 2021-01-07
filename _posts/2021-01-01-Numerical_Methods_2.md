@@ -4,7 +4,7 @@ title: Numerical Methods 2 - Higher Order Methods
 tags: [Numerical Methods, ODE, Python]
 tagline: ""
 header:
-  overlay_image: /assets/img/unsplash-image-1.jpg
+  overlay_image: /assets/img/General/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
@@ -89,11 +89,11 @@ for i in range(0,500):
 As we can see the set up of this code is very similar to the Euler method just now with a few more steps in the calculation of the next time step. Comparing this to the Euler method we developed in the last Post
 
 
-![RK2](/assets/img/RK2vsEuler.png){: .mx-auto.d-block :}
+![RK2](/assets/img/NM2/RK2vsEuler.png){: .mx-auto.d-block :}
 
 As we can see the Runge-Kutta methods here are much closer to the true Solution than the Euler method. In terms of difference we can plot the squared difference from the truse solution
 
-![SquareDiff](/assets/img/Square_Difference.png){: .mx-auto.d-block :}
+![SquareDiff](/assets/img/NM2/Square_Difference.png){: .mx-auto.d-block :}
 
 
 ## Runge Kutta fourth Order
@@ -136,11 +136,11 @@ for i in range(0,200):
  ```
 Now we can compare the results from our RK4 algorithm to the true solution 
 
-![RK4VsTrue](/assets/img/RK4vsTrue.png){: .mx-auto.d-block :}
+![RK4VsTrue](/assets/img/NM2/RK4vsTrue.png){: .mx-auto.d-block :}
 
 As we see above the RK4 method is very close to the True solutions and when we compare it to the other methods we have discussed here
 
-![RK4vsEverything](/assets/img/RK4_All.png){: .mx-auto.d-block :}
+![RK4vsEverything](/assets/img/NM2/RK4_All.png){: .mx-auto.d-block :}
 
 
  

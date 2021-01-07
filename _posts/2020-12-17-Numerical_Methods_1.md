@@ -5,11 +5,10 @@ subtitle: Welcome to my Blog
 tags: [Numerical Methods, ODE, Python]
 tagline: ""
 header:
-  overlay_image: /assets/img/unsplash-image-1.jpg
+  overlay_image: /assets/img/General/unsplash-image-1.jpg
   overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
 ---
-# Introduction
 
 Differential equations are central to the study of the natural world. They describe everything from the flow of fluids through pipes to the evolution of electrons in boxes. These equations naturally get very complicated very quickly thus we must put down our sharp pencils and turn to the more bluntened approach (albeit vastly more powerful) of numerical methods. 
 <br>
@@ -78,7 +77,7 @@ for i in range(50):
 ```
 We can also repeat this for different values of h and compare it to the true solution 
 
-![Euler_Single](/assets/img/Euler_All.png){: .mx-auto.d-block :}
+![Euler_Single](/assets/img/NM1/Euler_All.png){: .mx-auto.d-block :}
 
 As we can see the smaller we make h the closer our algorithm gets to the true solution. However, if we try to solve a slightly different problem, it won't look like we've changed much and it is still easy to solve analytically.
 
@@ -142,7 +141,7 @@ plt.show()
 ```
 Which produces the result
 
-![Euler_Second_All](/assets/img/Euler_Second_All.png){: .mx-auto.d-block :}
+![Euler_Second_All](/assets/img/NM1/Euler_Second_All.png){: .mx-auto.d-block :}
 
 As can be easily seen the Euler method breaks down for this oscillating solution but why is this? Can we predict if this is going to occur? Are there any improvements we can make to stop this from happening or at least reduce the error.
 

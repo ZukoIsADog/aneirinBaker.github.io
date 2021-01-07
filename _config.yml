@@ -42,8 +42,6 @@ titles_from_headings:
 
 
 
-# Analytics
-analytics:
   provider               : "google" # false (default), "google", "google-universal", "google-gtag", "custom"
   google:
     tracking_id          : UA-186306170-1
@@ -53,7 +51,7 @@ analytics:
 # Site Author
 author:
   name             : Aneirin Baker
-  avatar           : /assets/img/Pic_of_me.jpg
+  avatar           : /assets/img/AboutMe/Pic_of_me.jpg
   bio: 
     PhD Researcher
     <br> 

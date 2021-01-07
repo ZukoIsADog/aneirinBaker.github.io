@@ -24,36 +24,36 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 </style>
 
 <div class="container-list">
-	<div class="container-outer" onclick="location.href='../assets/img/phd-front.jpg';" style="cursor: pointer;">
+	<div class="container-outer" onclick="location.href='../assets/img/Comics/phd-front.jpg';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Three Body interactions in Superconducting Circuits</h3>
 		</div>
 		<div class="container-inner">
-			<img class="img-prev" src="/assets/img/Scc.png" alt="SCC.png">
+			<img class="img-prev" src="/assets/img/Research/Scc.png" alt="SCC.png">
 			<div class="txt-box">
 				Many body interactions within supercondcuting circuits are usually broken down into one and two qubit gates. This slows down the interaction and reduces the overall fidelity of the gate. I aim to imporve this by designing a circuit that can perform three body interactions. 
 			</div>
 		</div>
 	</div>
 
-<div class="container-outer" onclick="location.href='../assets/img/phd012218s.gif';" style="cursor: pointer;">
+<div class="container-outer" onclick="location.href='../assets/img/Comics/phd012218s.gif';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Quantum Simulators - Quantum Link model and BEC's</h3>
 		</div>
 		<div class="container-inner">
-			<img class="img-prev" src="/assets/img/Lattice.jpg" alt="Lattice.png">
+			<img class="img-prev" src="/assets/img/Research/Lattice.jpg" alt="Lattice.png">
 			<div class="txt-box">
 			Quantum computers come in many different types, the most well known is the gate model types where algorithms are executed on Quantum Chips. Quantum simulators are specifically designed Quantum computers that simulate a Quantum system that is hard to simulate clasically. 
 			</div>
 		</div>
 	</div>
 
-<div class="container-outer" onclick="location.href='../assets/img/phd-front.jpg';" style="cursor: pointer;">
+<div class="container-outer" onclick="location.href='../assets/img/Comics/phd-front.jpg';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Fractional Quantum Hall from Chen Simons</h3>
 		</div>
 		<div class="container-inner">
-			<img class="img-prev" src="/assets/img/FQHE.gif" alt="FQHE.png">
+			<img class="img-prev" src="/assets/img/Research/FQHE.gif" alt="FQHE.png">
 			<div class="txt-box">
 			The Fractional Quantum Hall effect was discovered in ... and has puzzled condensed matter theoriests for a while. The exact mechanism for the creation of the fractionaliztion within this effect is not known. 
 			</div>
@@ -62,6 +62,5 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 
 
 </div>
-## References
 
 

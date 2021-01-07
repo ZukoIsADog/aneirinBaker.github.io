@@ -15,7 +15,7 @@ author_profile: true
 </style>
 </head>
 <body>
-<img src="../assets/img/Pic_of_me.jpg" alt="Loki" class="center" >
+<img src="../assets/img/AboutMe/Pic_of_me.jpg" alt="Loki" class="center" >
 </body>
 
 My name is Aneirin (Nye) Baker. I am a 3rd Year PhD student at Heriot Watt Univertisty studying under [Michael Hartmann](https://www.quantumtheory.nat.fau.eu/) (Erlangen Univeristy formerly Heriot Watt). Currently I am working with [Patrik Ohbergs group](http://home.eps.hw.ac.uk/~po15/index.html) as my local supervisor. My PhD is on Qunatum Computing Hardware looking into three body interactions within superconducting circuits and their uses in Quantum Simulators. In addition to this I work on Numerical Simulations of Chiral Condensates looking into their relation to the Fractional Quantum Hall Effect. 
@@ -47,15 +47,15 @@ Outside of my PhD I love to cycle. I plan on doing Land's End to John O'Groats n
 
 <div class="row">
   <div class="column">
-    <img src="../assets/img/Kaya.jpg" alt="Kaya" style="width:100%">
+    <img src="../assets/img/AboutMe/Kaya.jpg" alt="Kaya" style="width:100%">
     <figcaption>Kaya</figcaption>
   </div>
   <div class="column">
-        <img src="../assets/img/loki.jpg" alt="Loki" height="245">
+        <img src="../assets/img/AboutMe/loki.jpg" alt="Loki" height="245">
     <figcaption>Loki</figcaption>
   </div>
   <div class="column">
-        <img src="../assets/img/Zuko.jpg" alt="Zuko" style="width:100%">
+        <img src="../assets/img/AboutMe/Zuko.jpg" alt="Zuko" style="width:100%">
     <figcaption>Zuko</figcaption>
   </div>
 </div>

@@ -42,7 +42,7 @@ We can replace the first order derivative with the RHS of our ODE system, we can
 The Taylor expansion becomes 
 
 \\[  y(t+h) = y(t) + h f(t,y) + \frac{h^2}{2} [\frac{df}{dt} + \frac{df}{dy} \frac{dy}{dt}], \\]
-***** check what goes on here not sure about it****
+\\[  y(t+h) = y(t) + \frac{h}{2} f(t,y) + \frac{h}{2} [f(t,y) + h \frac{df}{dt} + h \frac{df}{dy} \frac{dy}{dt}],\\]
  
  We now recall the taylor expansion for a multi varied function 
 

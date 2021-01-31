@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Quantum Computing 1 - Introduction to different Architectures
+title: Quantum Computing 1 - Introduction to Different Architectures
 tags: [Quantum Computing]
 tagline: ""
 header:

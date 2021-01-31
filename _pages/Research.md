@@ -36,7 +36,7 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 		</div>
 	</div>
 
-<div class="container-outer" onclick="location.href='../assets/img/Comics/phd012218s.gif';" style="cursor: pointer;">
+<div class="container-outer" onclick="location.href='/BECLattice/';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Quantum Simulators - Quantum Link model and BEC's</h3>
 		</div>

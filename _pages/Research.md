@@ -48,7 +48,7 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 		</div>
 	</div>
 
-<div class="container-outer" onclick="location.href='../assets/img/Comics/phd-front.jpg';" style="cursor: pointer;">
+<div class="container-outer" onclick="location.href='/Chiral/';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Fractional Quantum Hall from Chen Simons</h3>
 		</div>

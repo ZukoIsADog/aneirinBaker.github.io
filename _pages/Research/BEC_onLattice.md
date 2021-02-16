@@ -14,6 +14,8 @@ In light of this we are attempting to create a Quantum Simulator of a Binary BEC
 
 We aim to show that it may be possible to detect topological features within superconducting circuits and prove the theoretical basis that was laid down. We also aim to extend the parameter range that Trapped Ion physicists are able to probe with their experiments. This could lead to new and interesting phases of matter and deepen our understanding of both BEC's and Quantum Simulators. This would also be a great experimental challenge since controlling many qubits on a single chip is vary hard and the number of qubits is currently one of the limiting factors facing the development of Quantum COmputers today. 
 
+<hr>
+
 ### References
 
 [1] - Son, D. T., & Stephanov, M. A. (2002). Domain walls of relative phase in two-component Bose-Einstein condensates. Physical Review A - Atomic, Molecular, and Optical Physics, 65(6), 636211–63621110. https://doi.org/10.1103/PhysRevA.65.063621

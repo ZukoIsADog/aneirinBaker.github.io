@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Quantum Computing 1 - Introduction to Different Architectures
+title: Quantum Computing 1 - Introduction to Quantum Computing Architectures
 tags: [Quantum Computing]
 tagline: ""
 header:
@@ -57,3 +57,9 @@ The main issue with this type of quantum computer is that it is very hard to pro
 </figure>
 The final type of quantum computing we shall talk about here is  Quantum annealing. This is a much different type of Quantum Computer than the others discussed above since it does not rely on gate based operations to achieve its desired outcome. It also has a different speciality to the others, this type of QC is geared towards finding the minimum of a problem or performs ground state searches. This is of particular interest to chemists and biologists who would like to know the ground state of complex molecules which cannot be found on conventional computers in any reasonable time.  
 The method behind this is the adiabatic theorem, the Quantum computer is prepared in a specific state and is then slowly evolved into another Hamiltonian. The idea is that due to the adiabatic theorem the system will stay in the ground state of the entire system and so when the evolution has finished the system should be in the ground state of the final Hamiltonian and so we will then have found the Ground state of the system we are searching for.  
+
+<a href="https://www.mathjax.org">
+    <img title="Powered by MathJax"
+    src="https://www.mathjax.org/badge/badge.gif"
+    border="0" alt="Powered by MathJax" />
+</a>

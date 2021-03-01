@@ -11,22 +11,39 @@ header:
 
 Now that we have dealt with the ordinary differential equations we can go one of two ways. We can explore how to solve all types of these ODE's and keep on solving them until the cows come home....... or we can move onto something a little different. We can extend our understanding of Differential Equations by exploring systems that involve more than one variable and derivative thereof. This path will lead us to much MUCH more interesting things such as Quantum Physics and Fluid Simulation.
 
+<head>
+  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+  <script id="MathJax-script" async
+          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
+  </script>
+</head>
+<body>
 We must now begin with a short but needed discussion on what exactly Partial Differential Equations (PDE's) are, this isn't exactly a new thing and something that has been done thousands of times (I shall leave links to other , possibly better, introductions) but for completeness I believe I should  put this here. To begin with I shall introduce what is known as the partial derivative (again this can be a huge topic but link link link blah blah blah).
 When the functions we want to deal with are functions of more than one variable we can take derivatives wrt each of the different variables independently of one another. We do this by keeping the other variables constant and varying the one we are interested in. This is called taking a partial derivative.  
 
 Partial differentials naturally lead to the idea of partial differential equations, differential equations are the natural extensions of ordinary differential equations to functions of multiple variables.  These equations can be solved analytically however much like ODE’s the equations or families of equations that can be solved are usually the exception rather than the rule . The amount of PDEs is also much larger than ODE’s. Hence we need to turn towards numerical methods to solve these equations. PDEs are the most common differential equations which is solved in science and engineering and this class of equations covers most of the important equations in science ( Schroedinger equation, Napier stokes , Burgers equation etc.) hence a lot of work is put into improving the numerical methods for solving these equations.  
 
+</body>
+
 ## Where and why are they used 
 
- 
+<body>
 
 PDEs are almost all pervasive in science, engineering and beyond. They appear in everything from fundamental physics (Maxwell's Equations) to modeling traffic flow (Burgers Equation).  This wide range of applications can be put down to the general nature of differential equations. In most of our world we can describe things by how they change much easier than how they actually are. We may not know why the traffic jam occurred exactly but we can certainly tell the changes that occurred because of it.   
 
+</body>
+
 ## How to Solve them 
+
+<body>
 
 Analytical solutions to PDEs are few and far between to be honest. We can certainly spend a long time (I did in my degree) discussing exactly how to solve these equations analytically using various methods (separation of variables etc ) and find general solutions. However there are many PDE's (most of the ones which describe real life in fact) which do no have what we call closed solutions. These are solutions which can be written down exactly on a (somewhat large in some cases) piece of paper. So, we would need a different approach to solve these problems. As before we turn to our trusty computer and ask it very nicely to solve it for us. This is where it may get a little complicated. Since there are now more variables to deal with the complexity of the solver will be much higher. As a general rule PDEs are much trickier to solve than ODE's and often need much more complicated solvers to achieve a sufficiently high degree of accuracy. 
 
+</body>
+
 ### Note 
+
+<body>
 
 I have written up an example of how to solve a PDE analytically. As it can be seen there is quite a lot of work to solve a simple equation.
 
@@ -35,45 +52,34 @@ I shall be going through those more complicated algorithms over the next couple 
 
 The first two methods I shall explore are both similar and will be easy for someone who has only explored the ODE solvers to understand. 
 
+</body>
+
 ## Finite Difference Method
+
+<body>
 
 The finite difference method is the simplest algorithm for solving PDEs that anyone could come up with as with ODE's we examined before we discretize everything we can. A Prime example of this discretization is to solve the Laplace Equation which describes a steady state heat equation since the RHS of this equation is 0. 
 
-\\[ \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0\\]
+\[ \frac{\partial^2 T}{\partial x^2} + \frac{\partial^2 T}{\partial y^2} = 0\]
 
 Replacing the differential with their finite difference approximation giving us 
 
-\\[ T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1} - 4 T_{i,j} = 0\\]
+\[ T_{i+1,j} + T_{i-1,j} + T_{i,j+1} + T_{i,j-1} - 4 T_{i,j} = 0\]
 
-Note that here I have set the lattice space of x and y equally so they exactly cancel out making the equations easier to deal with. Now that we have an expression for the discrete version of the PDE we can turn this into a Linear Algebra problem which can be solved using methods readily available in programs such as MATLAB and Scipy. The form of the problem we are aiming for is \\( Ax = B\\) where \\( A\\) is a Matrix and \\(B\\) is a column vector which contains the Initial conditions. We now wish to solve this for \\(x\\) so first we must recast the discretized PDE into a Matrix and the Initial conditions into a column vector T. This can be achieved by taking the matrix of initial conditions that is 
+Note that here I have set the lattice space of x and y equally so they exactly cancel out making the equations easier to deal with. Now that we have an expression for the discrete version of the PDE we can turn this into a Linear Algebra problem which can be solved using methods readily available in programs such as MATLAB and Scipy. The form of the problem we are aiming for is \( Ax = B\) where \( A\) is a Matrix and \(B\) is a column vector which contains the Initial conditions. We now wish to solve this for \(x\) so first we must recast the discretized PDE into a Matrix and the Initial conditions into a column vector T. This can be achieved by taking the matrix of initial conditions that is 
 
-<head>
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script id="MathJax-script" async
-          src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js">
-  </script>
-</head>
-
-<body>
-<p>
-  $$
+\[
 \begin{bmatrix}
 T_{0,0} & T_{0,1} & ... & T_{0,N} \\
 T_{1,0} & T_{1,1} & ... & T_{1,N} \\
 ... & ... & ... & ... \\
 T_{N,0} & T_{N,1} & ... & T_{N,N} 
 \end{bmatrix}
-$$
-</p>
-</body>
-
+\]
 
 we now put this matrix into a row major order to create the initial state vector
-
-<body>
-<p>
   
-$$
+\[
 \begin{bmatrix}
 T_{0,0}\\
 T_{0,1}\\
@@ -84,27 +90,22 @@ T_{1,0}\\
 ...\\
 T_{N,N}
 \end{bmatrix}
-$$
+\]
 
-</p>  
-</body>
 
-With this vector in mind we can construct a matrix that multiplies a general vector \\(X\\) which is of the same form as \\(T\\). This matrix equation is now equivalent to the discretized version of the PDE but now describes the area which we are concerned with. This matrix takes the form 
+With this vector in mind we can construct a matrix that multiplies a general vector \(X\) which is of the same form as \(T\). This matrix equation is now equivalent to the discretized version of the PDE but now describes the area which we are concerned with. This matrix takes the form 
 
-<body>
-  <p>
-    $$
-      \begin{bmatrix}
-      4  & -1 & 0  & -1 & 0  & 0  & ... \\
-      -1 & 4  & -1 & 0  & -1 & 0  & ... \\
-      0  & -1 & 4  & 0  & 0  & -1 & ... \\
-      -1 & 0  & 0  & 4  & -1 & 0  & ... \\
-      0  & -1 & 0  & -1 &  4 & -1 & ... \\
-      0  &  0 & -1 & 0  & -1 & 4  & ... \\
-      ... & ... & ... & ... & ... & ... & ...
-      \end{bmatrix}
-    $$
-  </p>
+\[
+\begin{bmatrix}
+4  & -1 & 0  & -1 & 0  & 0  & ... \\
+-1 & 4  & -1 & 0  & -1 & 0  & ... \\
+0  & -1 & 4  & 0  & 0  & -1 & ... \\
+-1 & 0  & 0  & 4  & -1 & 0  & ... \\
+0  & -1 & 0  & -1 &  4 & -1 & ... \\
+0  &  0 & -1 & 0  & -1 & 4  & ... \\
+... & ... & ... & ... & ... & ... & ...
+\end{bmatrix}
+\]
 </body>
 
 Now that we have the matrix equation we can code this up relatively easily. [MATLAB](https://www.mathworks.com/) is a perfect language to solve this problem as it is built to handle matrices easily and has very accurate inbuilt Linear Algebra solvers we make use of these solvers to code up this algorithm. To create the Matrix that defines the discrete PDE we have the following.
@@ -273,3 +274,9 @@ There are many other algorithms that we could discuss for solving scientific ODE
 [Wikipedia](https://en.wikipedia.org/wiki/Partial_differential_equation)
 
 [A nice introductory paper](https://arxiv.org/abs/1901.03022)
+
+<a href="https://www.mathjax.org">
+    <img title="Powered by MathJax"
+    src="https://www.mathjax.org/badge/badge.gif"
+    border="0" alt="Powered by MathJax" />
+</a>

@@ -1,6 +1,6 @@
 ---
 layout: posts
-title: Quantum Computing 2 - A Bog standard introcution to Quantum Computing
+title: Quantum Computing 2 - A Bog Standard Introdution to Quantum Computing
 tags: [Quantum Computing]
 tagline: ""
 header:
@@ -10,11 +10,10 @@ header:
 ---
 
 
-## A Bog standard introduction to Quantum Computing 
-
+## A Bog Standard Introdution to Quantum Computing
 As with most introductions to scientific books and blogs there always has to be sections that are repeated everywhere. Since quantum computing has been hot in the media for a while there have been many many blog posts on quantum computing, what it entails and its challenges. Here i may repeat all of this but i am doing it for completion bascially it needs to be done. I shall go over the basic make up of a quantum computer (qubits),what you can do with this qubits and most importantly why they differ from classical qubits. 
 
-### Clascial bits
+### Clascial Bits
 
 To understand qubits and the difference from your laptop/desktop/phone to a quatum computer first you must understand what the basic compent of classical computer is. The bit or logical bit is a system that can only take two values (1 or 0, on or off, left or right etc). Using this and basic logical operations such as (XOR, NOT etc) all possible algoirhtms can be approximated using these (....cit turing thesis?). An example of an adder 
 
@@ -102,8 +101,6 @@ If we apply this to the \( |0> \) and  \( |1> \) state you will find the superpo
 
 #### Two Qubit Gates
 
-
-
 <body>
 <p>
 Two qubit gates do what it says on the tin, they act on two qubits to produce a result that a single qubit gate could not. It may not seem like it but we are now truly moving into a purely quantum realm. Why? This is because we are now discussing operations which cannot be perforomed with clasial logic bits. Now there are severl single qubit gates which obviously cannot be performed with clasical bits but thats more to do with the acutal qubits themselves rather than the make up of the logic. The first two qubit gate that is always discussed is the Controlled Not gate or CNOT gate. A quick and dirty explanation of this gate is that it flips a target qubit dependant on the state of a control qubit. Its matrix representation is given by
@@ -133,3 +130,8 @@ The Questions posed just above are very relavent. Why is there still research in
 https://en.wikipedia.org/wiki/Quantum_logic_gate
 
 
+<a href="https://www.mathjax.org">
+    <img title="Powered by MathJax"
+    src="https://www.mathjax.org/badge/badge.gif"
+    border="0" alt="Powered by MathJax" />
+</a>

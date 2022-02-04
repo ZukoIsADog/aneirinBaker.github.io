@@ -24,6 +24,48 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 </style>
 
 <div class="container-list">
+
+<div class="container-outer" onclick="location.href='/QEC/';" style="cursor: pointer;">
+		<div class="container-inner">
+			<h3>Quantum Error Correction With Dispersive Shifts</h3>
+		</div>
+		<div class="container-inner">
+			<img class="img-prev" src="/assets/img/Research/QEC.png" alt="FQHE.png">
+			<div class="txt-box">
+			Extending ideas of iToffoli project into area of Quantum Error Correction. We use dispersive shifts to effect parity measurements thta can combine to form stablizers.
+			</div>
+		</div>
+	</div>
+
+<div class="container-outer" onclick="location.href='/swap_gates/';" style="cursor: pointer;">
+		<div class="container-inner">
+			<h3>Low frequency SWAP gates</h3>
+		</div>
+		<div class="container-inner">
+			<img class="img-prev" src="/assets/img/Research/swap_gate.jpg" alt="FQHE.png">
+			<div class="txt-box">
+			We examine the properties of tunablly coupled qubits to create low frequency bSWAP gates. These bSWAP gates are equivalent to SWAP gates via single qubit X gates.
+			</div>
+		</div>
+	</div>
+
+<div class="container-outer" onclick="location.href='/Chiral/';" style="cursor: pointer;">
+		<div class="container-inner">
+			<h3>Fractional Quantum Hall from Chen Simons</h3>
+		</div>
+		<div class="container-inner">
+			<img class="img-prev" src="/assets/img/Research/FQHE.gif" alt="FQHE.png">
+			<div class="txt-box">
+			The Fractional Quantum Hall effect was discovered in the 1990's and has puzzled condensed matter theoriests for a while. The exact mechanism for the creation of the fractionaliztion within this effect is not known. 
+			</div>
+		</div>
+	</div>
+
+</div>
+
+### Completed/Old Projects 
+
+<div class="container-list">
 	<div class="container-outer" onclick="location.href='/Toffoli/';" style="cursor: pointer;">
 		<div class="container-inner">
 			<h3>Three Body interactions in Superconducting Circuits</h3>
@@ -47,20 +89,4 @@ You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also 
 			</div>
 		</div>
 	</div>
-
-<div class="container-outer" onclick="location.href='/Chiral/';" style="cursor: pointer;">
-		<div class="container-inner">
-			<h3>Fractional Quantum Hall from Chen Simons</h3>
-		</div>
-		<div class="container-inner">
-			<img class="img-prev" src="/assets/img/Research/FQHE.gif" alt="FQHE.png">
-			<div class="txt-box">
-			The Fractional Quantum Hall effect was discovered in the 1990's and has puzzled condensed matter theoriests for a while. The exact mechanism for the creation of the fractionaliztion within this effect is not known. 
-			</div>
-		</div>
-	</div>
-
-
 </div>
-
-

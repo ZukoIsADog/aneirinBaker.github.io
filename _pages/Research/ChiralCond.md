@@ -3,25 +3,8 @@ title: Research - Chiral Condensate
 permalink: /Chiral/
 author_profile: true
 ---
-<head>
-<style>
-* {
-  box-sizing: border-box;
-}
 
-.column {
-  float: left;
-  width: 50%;
-  padding: 5px;
-}
-.row::after {
-  content: "";
-  clear: both;
-  display: table;
-}
-</style>
-</head>
-<body>
+## Synthetic Gauge fields
 
 In 2013 Edmonds <i>et al.</i> [1] developed a new form of the Schrodinger equation they called the Chiral Non Linear Schrodinger Equation (CNLSE for short). The modifications made to the traditional Schrodinger equations was meant to realise a synthetic dynamical gauge field. Numerical analysis of this equation showed that the equation did indeed produce chrial dynamics this was seen when they refelected a wavepacket off a wall and examined the free expansion (numerically)
 
@@ -39,10 +22,7 @@ In 2013 Edmonds <i>et al.</i> [1] developed a new form of the Schrodinger equati
 In this project we are looking into the derivation of this theory from first priciples not from a phenomilogical point of view but from a pure thoery perspective. We aim to link this to such theories as Wen's theory of Fractional Quantum Hall Edge states [2], Wiegmann hydrodynamical theory of FQHE [3] and many others. We also wish to link this theoritical work to some experiemnts within Ultra Colad atoms using it to explain some phenoma that has been observed but has not theory surrounding it currently. 
 
 This work unlike my other projects is done in colaboration with my [Group](http://home.eps.hw.ac.uk/~po15/index.html) at Heriot Watt Univeristy (Old webpage, a new one is coming soon!!).
-</body>
 
-
-<hr>
 
 ### References
 

@@ -12,7 +12,7 @@ My work with supercondcuting circuits has given me an interest in quantum comput
 
 <hr>
 
-You can find my Academic CV [here](../assets/docs/AcademicCV.pdf). You can also find my posters [here](/posters/) and my Masters Thesis [here](../assets/docs/Master_Project.pdf). You can find a link to all my papers [here](https://arxiv.org/find/grp_physics/1/au:+Baker_Aneirin_J/0/1/0/all/0/1?per_page=100)
+You can find my posters [here](/posters/) and my Masters Thesis [here](../assets/docs/Master_Project.pdf). You can find a link to all my papers [here](https://arxiv.org/find/grp_physics/1/au:+Baker_Aneirin_J/0/1/0/all/0/1?per_page=100)
 <br>
 
 <hr>

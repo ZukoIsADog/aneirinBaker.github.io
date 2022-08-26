@@ -20,7 +20,7 @@ title                    : "Aneirin John Baker"
 title_separator          : "-"
 subtitle                 : "Version 1.0"
 name                     : "Aneirin Baker"
-description              : "A website for me to mess around on"
+description              : "My Personal Website"
 
 breadcrumbs              : false
 words_per_minute         : 200
@@ -50,12 +50,9 @@ titles_from_headings:
 
 # Site Author
 author:
-  name             : Aneirin Baker
+  name             : Aneirin J. Baker
   avatar           : /assets/img/AboutMe/Pic_of_me.jpg
-  bio: 
-    PhD Researcher
-    <br> 
-    Superconducting Circuits
+  bio              : Hardware Engineer at NQCC
     
   links:
     - label: "Edinburgh UK"

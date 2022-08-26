@@ -20,7 +20,7 @@ author_profile: true
 
 My name is Aneirin (Nye) Baker. I am a Hardware Engineer at the National Quantum Computing Center in the UK. I am just finishing up my PhD at Heriot Watt Univertisty studying under [Michael Hartmann](https://www.quantumtheory.nat.fau.eu/) (Erlangen Univeristy formerly Heriot Watt). Also working with [Patrik Ohbergs group](http://home.eps.hw.ac.uk/~po15/index.html). My PhD was on Qunatum Computing Hardware looking into three body interactions within superconducting circuits and their uses in Quantum Simulators. In addition to this I work on Numerical Simulations of Chiral Condensates looking into their relation to the Fractional Quantum Hall Effect. 
 
-Outside of work I love to cycle, hike, swim, rock climb etc etc I love sports in general. In what spare time I have left I have three animals to look after; two dogs (Kaya and Zuko) and a Cat (Loki), Zuko is the newest addition to our .....horde he's a 5 month Romanian rescue so he is taking alot of attention these days. 
+Outside of work I love to cycle, hike, swim, rock climb etc etc I love sports in general. In what spare time I have left I have three animals to look after; two dogs (Kaya and Zuko) and a Cat (Loki), Zuko is the newest addition to our .....horde he's a 2 year old Romanian rescue so he is taking alot of attention these days. 
 
 <head>
 <style>

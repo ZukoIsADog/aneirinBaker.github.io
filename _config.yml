@@ -10,7 +10,7 @@
 # Review documentation to determine if you should use `theme` or `remote_theme`
 # https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/#installing-the-theme
 
-theme                  : "minimal-mistakes-jekyll"
+
 remote_theme           : "mmistakes/minimal-mistakes"
 minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
@@ -55,12 +55,13 @@ author:
   bio              : Hardware Engineer at NQCC
     
   links:
-    - label: "Edinburgh UK"
+    - label: "Oxford UK"
       icon: "fas fa-2x fa-fw fa-map-marker-alt"
-      url: "https://www.lunduniversity.lu.se/lucat/user/103e4b4ed2f6ea7e498de3c28157c7bd/"
+      url: "https://goo.gl/maps/rYtdS2ExnqpMhunq9?coh=178573&entry=tt"
     - label: "Email"
       icon: "fas fa-2x fa-fw fa-envelope"
       url: "mailto:ajb17 [at] hw.ac.uk"
+      url: "mailto:nyebaker.github [at] gmail.com"
     - label: "Twitter"
       icon: "fab fa-2x fa-fw fa-twitter"
       url: "https://twitter.com/BakerNye"
